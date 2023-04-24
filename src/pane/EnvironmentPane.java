@@ -1,9 +1,9 @@
 package pane;
 
 import config.config;
+import javafx.geometry.Pos;
 import javafx.scene.layout.Background;
 import javafx.scene.layout.BackgroundFill;
-import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.StackPane;
 import javafx.scene.paint.Color;
 
@@ -20,6 +20,7 @@ public class EnvironmentPane extends StackPane {
 
 		this.getChildren().add(hotelbackgroundStackPane);
 		this.getChildren().add(hotelBorderPane);
+		
 	}
 
 }
